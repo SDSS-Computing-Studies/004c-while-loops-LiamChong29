@@ -16,11 +16,12 @@ Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
 
-a=input("Input a number: ")
+
+a=input("input")
 a=int(a)
 b=0
 c=""
 while b<12:
     b=b+1
     c=b*a
-    print(str(c)+" ", end='')
+    print(str(c)+" " , end='')

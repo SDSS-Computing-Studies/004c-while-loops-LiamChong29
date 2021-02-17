@@ -13,15 +13,14 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
-
-x=1
-y=1
-print(str(x)+" ", end='')
-print(str(y)+" ", end='')
+a=1
+b=1
+print(str(a)+" " ,end='')
+print(str(b)+" " ,end='')
 while True:
-    c=x+y
-    x=y
-    y=c
-    print(str(y)+" ", end='')
+    c=a+b
+    a=b
+    b=c
+    print(str(c)+" ", end='')
     if c>100:
         break
