@@ -16,12 +16,16 @@ Access granted
 Access denied
 """
 
-a=""
-b=""
-while"admin"!= a or "12345"!= b:
-    a=input("username: ")
-    b=input("password: ")
-    if "admin"!= a or "12345"!=b:
-        print("Access denied")
-    if "admin"== a and "12345"== b:
-        print("Access granted")
+name= ""
+password= ""
+
+while name != "admin":
+    name = (input("Enter username: ")).strip()
+    if name == "admin":
+        while password != "12345":
+            password = (input("Enter password: ")).strip()
+            if password == "12345":
+                print("Access granted")
+                break
+            else:
+                print("Access denied")
