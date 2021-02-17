@@ -22,6 +22,7 @@ That is an even integer
 a=""
 b=""
 
+
 while b!=0:
     a=input("float number")
     a=float(a)
@@ -29,3 +30,4 @@ while b!=0:
     if b!=0:
         print("That is not an even integer.")
 print("That is an even integer.")
+
